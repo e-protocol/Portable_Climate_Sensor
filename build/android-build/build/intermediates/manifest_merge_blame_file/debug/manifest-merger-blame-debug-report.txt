@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:81:1-69
+9        android:minSdkVersion="21"
+9-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:81:11-37
+10        android:targetSdkVersion="28" />
+10-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:81:38-67
+11    <!--
+12         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+13         Remove the comment if you do not require these default permissions.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:5:5-67
+15-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:6:5-81
+16-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:7:5-68
+17-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:7:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:8:5-74
+18-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:8:22-71
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:9:5-79
+19-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:10:5-81
+20-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:10:22-78
+21
+22    <!--
+23         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+24         Remove the comment if you do not require these default features.
+25    -->
+26
+27    <supports-screens
+27-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:16:5-135
+28        android:anyDensity="true"
+28-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:16:80-105
+29        android:largeScreens="true"
+29-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:16:23-50
+30        android:normalScreens="true"
+30-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:16:51-79
+31        android:smallScreens="true" />
+31-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:16:106-133
+32
+33    <uses-permission android:name="android.permission.BLUETOOTH" />
+33-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:7:5-68
+33-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:7:22-65
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:9:5-79
+34-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:9:22-76
+35
+36    <application
+36-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:17:5-79:19
+37        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+37-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:17:53-116
+38        android:debuggable="true"
+39        android:extractNativeLibs="true"
+39-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:17:157-189
+40        android:hardwareAccelerated="true"
+40-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:17:18-52
+41        android:icon="@drawable/icon"
+41-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:17:190-219
+42        android:label="Portable_Climate_Sensor" >
+42-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:17:117-156
+43        <activity
+43-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:18:9-77:20
+44            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+44-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:18:189-249
+45            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+45-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:18:19-188
+46            android:label="Portable_Climate_Sensor"
+46-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:18:250-289
+47            android:launchMode="singleTop"
+47-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:18:327-357
+48            android:screenOrientation="portrait" >
+48-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:18:290-326
+49            <intent-filter>
+49-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:19:13-22:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:20:17-68
+50-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:20:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:21:17-76
+52-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:21:27-74
+53            </intent-filter>
+54            <!-- Application arguments -->
+55            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+56            <!-- Application arguments -->
+57            <meta-data
+57-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:26:13-101
+58                android:name="android.app.lib_name"
+58-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:26:24-59
+59                android:value="Portable_Climate_Sensor" />
+59-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:26:60-99
+60            <meta-data
+60-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:27:13-112
+61                android:name="android.app.qt_sources_resource_id"
+61-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:27:24-73
+62                android:resource="@array/qt_sources" />
+62-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:27:74-110
+63            <meta-data
+63-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:28:13-87
+64                android:name="android.app.repository"
+64-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:28:24-61
+65                android:value="default" />
+65-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:28:62-85
+66            <meta-data
+66-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:29:13-106
+67                android:name="android.app.qt_libs_resource_id"
+67-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:29:24-70
+68                android:resource="@array/qt_libs" />
+68-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:29:71-104
+69            <meta-data
+69-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:30:13-116
+70                android:name="android.app.bundled_libs_resource_id"
+70-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:30:24-75
+71                android:resource="@array/bundled_libs" />
+71-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:30:76-114
+72            <!-- Deploy Qt libs as part of package -->
+73            <meta-data
+73-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:32:13-91
+74                android:name="android.app.bundle_local_qt_libs"
+74-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:32:24-71
+75                android:value="1" />
+75-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:32:72-89
+76            <!-- Run with local libs -->
+77            <meta-data
+77-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:34:13-88
+78                android:name="android.app.use_local_qt_libs"
+78-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:34:24-68
+79                android:value="1" />
+79-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:34:69-86
+80            <meta-data
+80-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:35:13-100
+81                android:name="android.app.libs_prefix"
+81-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:35:24-62
+82                android:value="/data/local/tmp/qt/" />
+82-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:35:63-98
+83            <meta-data
+83-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:36:13-122
+84                android:name="android.app.load_local_libs_resource_id"
+84-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:36:24-78
+85                android:resource="@array/load_local_libs" />
+85-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:36:79-120
+86            <meta-data
+86-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:37:13-153
+87                android:name="android.app.load_local_jars"
+87-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:37:24-66
+88                android:value="jar/QtAndroid.jar:jar/QtAndroidExtras.jar:jar/QtAndroidBluetooth.jar" />
+88-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:37:67-151
+89            <meta-data
+89-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:38:13-153
+90                android:name="android.app.static_init_classes"
+90-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:38:24-70
+91                android:value="org.qtproject.qt5.android.bluetooth.QtBluetoothBroadcastReceiver" />
+91-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:38:71-151
+92            <!-- Used to specify custom system library path to run with local system libs -->
+93            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+94            <!-- Messages maps -->
+95            <meta-data
+95-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:42:13-122
+96                android:name="android.app.ministro_not_found_msg"
+96-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:42:71-120
+97                android:value="@string/ministro_not_found_msg" />
+97-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:42:24-70
+98            <meta-data
+98-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:43:13-116
+99                android:name="android.app.ministro_needed_msg"
+99-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:43:68-114
+100                android:value="@string/ministro_needed_msg" />
+100-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:43:24-67
+101            <meta-data
+101-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:44:13-108
+102                android:name="android.app.fatal_error_msg"
+102-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:44:64-106
+103                android:value="@string/fatal_error_msg" />
+103-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:44:24-63
+104            <meta-data
+104-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:45:13-132
+105                android:name="android.app.unsupported_android_version"
+105-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:45:76-130
+106                android:value="@string/unsupported_android_version" />
+106-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:45:24-75
+107            <!-- Messages maps -->
+108            <!-- Splash screen -->
+109            <!--
+110                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+111                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+112                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+113                 are done populating your window with content.
+114            -->
+115            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+116            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+117            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+118            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+119            <!-- Splash screen -->
+120            <!-- Background running -->
+121            <!--
+122                 Warning: changing this value to true may cause unexpected crashes if the
+123                          application still try to draw after
+124                          "applicationStateChanged(Qt::ApplicationSuspended)"
+125                          signal is sent!
+126            -->
+127            <meta-data
+127-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:62:13-93
+128                android:name="android.app.background_running"
+128-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:62:24-69
+129                android:value="false" />
+129-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:62:70-91
+130            <!-- Background running -->
+131            <!-- auto screen scale factor -->
+132            <meta-data
+132-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:65:13-99
+133                android:name="android.app.auto_screen_scale_factor"
+133-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:65:24-75
+134                android:value="false" />
+134-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:65:76-97
+135            <!-- auto screen scale factor -->
+136            <!-- extract android style -->
+137            <!--
+138                 available android:values :
+139                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+140                * full - useful QWidget & Quick Controls 1 apps
+141                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+142                * none - useful for apps that don't use any of the above Qt modules
+143            -->
+144            <meta-data
+144-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:74:13-98
+145                android:name="android.app.extract_android_style"
+145-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:74:24-72
+146                android:value="default" />
+146-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:74:73-96
+147            <!-- extract android style -->
+148            <meta-data
+148-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:76:13-120
+149                android:name="android.app.splash_screen_drawable_portrait"
+149-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:76:24-82
+150                android:resource="@drawable/splash" />
+150-->/root/Qt Projects/Portable_Climate_Sensor/build-Portable_Climate_Sensor-Android_Qt_5_15_1_Clang_Multi_Abi-Release/android-build/AndroidManifest.xml:76:83-118
+151        </activity>
+152        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+153    </application>
+154
+155</manifest>
